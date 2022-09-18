@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo {
+  width: 7rem;
+  height: 5rem;
+}
+
+.header .header-menu {
+  display: flex; /*make li inline instead of block*/
+  list-style: none;
+  gap: 2rem; /*give a space between li */
+  color: var(--orange);
+}
+/* .header .header-menu li {
+  display: inline-block;
+  text-decoration: none;
+  
+} */
+
+.header .header-menu > li {
+  cursor: pointer;
+}
+
+.header .header-menu > li:hover {
+  color: var(--lightgray);
+}
